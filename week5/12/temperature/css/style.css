@@ -1,0 +1,149 @@
+body {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+  background: white; 
+  color: #333333;
+}
+
+/*==================================================
+  Text Styles
+===================================================*/
+p {
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+
+h1 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+
+/*==================================================
+  Background Image Classes
+===================================================*/
+.background {
+  padding:30px;
+}
+
+.space {
+  background: url(../images/space.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  font-size: 18px;
+  color: white;
+}
+
+.hygge {
+  background: url(../images/bookhygge.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  font-size: 18px;
+  color: #333333;
+}
+
+.brisk {
+  background: url(../images/autumn.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  font-size: 18px;
+  color: #333333;
+}
+
+.perfect {
+  background: url(../images/bench.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  font-size: 18px;
+  color: #333333;
+}
+
+.burning {
+  background-image: url("../images/burning.jpg");
+  background-size: cover;
+  font-size: 18px;
+  color: white;
+}
+
+.hot {
+  background: url("../images/beach-selfie.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-size: 18px;
+  color: #333333;
+}
+
+/*==================================================
+  Content Container Background
+===================================================*/
+
+.whiteBkg {
+  padding: 20px;
+  background-color: rgba(240,240,240,0.8);
+  border-radius: 3px;
+}
+
+.redBkg {
+  padding: 20px;
+  background-color: rgba(168,3,1,0.8);
+  border-radius: 3px;
+}
+
+.converter-container {
+  padding: 50px;
+  position:absolute;
+  width: 50%;
+  height:auto;
+  z-index: 10px;
+}
+
+#result {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 240px;
+  margin-right: 20px;
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+}
+
+input:focus {
+  border-color: #afafaf;
+  outline: none;
+}
+
+button {
+  font-size: 14px;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background: #88B04B;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Error styles
+   ================================================================ */
+
+/* This class shoud be added to the input if the user has not entered a value */
+.error {
+  border-color: red;
+}
+
+/* This error message should fade in if the user has not entered a value */
+.error-message {
+  color: white;
+  border: 1px solid red;
+  border-radius: 2x;
+  display: none; /*Hidden by default*/
+  background-color: rgba(255, 0, 0, .6);
+  padding: 10px;
+}
